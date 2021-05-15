@@ -28,3 +28,26 @@ button:hover {
   cursor: pointer;
   background-color: hsl(219, 79%, 60%);
 }
+
+.card {
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  border: 2px solid #eee;
+  border-radius: 0.25em;
+  overflow: hidden;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card p {
+  padding: 0 0.875em;
+}
+
+.card-grid {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
