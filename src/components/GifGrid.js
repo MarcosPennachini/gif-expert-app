@@ -10,7 +10,7 @@ const GifGrid = ({category}) => {
         <>
             <h3>{category}</h3>
             <div className="card-grid">
-                { loading && <p>Loading...</p> }
+                { loading && <p className="animate__animated animate__flash">Loading...</p> }
             
                 {img.map( (img) => {
                     return <GifGridItem 
