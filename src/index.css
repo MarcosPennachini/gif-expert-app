@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 3.75rem;
+  padding: 1.875rem;
 }
 
 input {
@@ -27,6 +27,11 @@ button {
 button:hover {
   cursor: pointer;
   background-color: hsl(219, 79%, 60%);
+}
+
+ol {
+  margin: 0;
+  padding: 0;
 }
 
 .card {
